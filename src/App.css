@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  min-width: 350px;
+  background-color: #2f3239;
+  color: white;
+}
+
+h3 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.logo {
+  width: 315px;
+  border-radius: 8px;
+}
+
+.user {
+  color: #ee642d;
+  font-weight: 600;
+}

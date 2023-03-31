@@ -83,17 +83,12 @@ The final solution should only show a button on the GitHub user profile if the G
 
 API example:
 
-When viewing [bdougie](https://github.com/bdougie) you will check his handle using the users service in api.opensauced.pizza to confirm he is an OpenSauced user. When checking [open-sauced-robot-vortex](https://github.com/open-sauced-robot-vortex) you will confirm that this GitHub account is *not* an OpenSauced user.
+When viewing [bdougie](https://github.com/bdougie) you will check his handle using the users service in api.opensauced.pizza to confirm he is an OpenSauced user. When checking [defunkt](https://github.com/defunkt) you will confirm he is not an OpenSauced user.
 
 ```
-GET https://api.opensauced.pizza/v1/users/bdougie
+https://api.opensauced.pizza/v1/users/bdougie // returns 200
+https://api.opensauced.pizza/v1/users/defunkt // return 404
 ```
-- Response status code: `200` 🟢 — i.e. `bdougie` _**is**_ an OpenSauced user
-- Whereas,
-```
-GET https://api.opensauced.pizza/v1/users/open-sauced-robot-vortex
-```
-- returns `404` 🔴 — i.e. `open-sauced-robot-vortex` is _**NOT**_ an OpenSauced user
 
 Things to consider:
 

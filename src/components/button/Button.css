@@ -1,0 +1,15 @@
+.opensauced-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #4459b7;
+  color: white;
+  font-size: 25px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.opensauced-btn:hover {
+  text-decoration: none;
+  background-color: #2e439f;
+}
