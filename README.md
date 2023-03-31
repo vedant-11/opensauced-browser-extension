@@ -1,3 +1,12 @@
+# To run this project:
+<ul>
+<li>
+CLone this repo</li>
+<li>Run npm install</li>
+<li>go to env.example and replace the auth token there and rename file to .env</li>
+<li>Run npm run dev and drag and drop the folder in chrome://extension
+
+
 # Information
 This should be a fun exercise.
 
